@@ -1,8 +1,8 @@
 //= require jquery
-//= require jquery-ui
+
 //= require jquery_ujs
 //= require tinymce-jquery
-//= require bootstrap-tooltip
+
 //= require video
 //= require swfobject.js
 //= require jquery.uploadify.v2.1.4.min.js

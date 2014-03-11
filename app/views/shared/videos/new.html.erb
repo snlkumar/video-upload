@@ -1,8 +1,11 @@
 <%= content_for :javascript do %>
-  <%= s3_upload_script({ key: 'video', button_text: 'Choose video file' }).html_safe %>
+  <%= s3_upload_script({ key: 'AKIAJLLPPU3D6DNMUH7Q', button_text: 'Choose video file' }).html_safe %>
 <% end %>
 
-
+<!-- Access Key ID:
+AKIAJLLPPU3D6DNMUH7Q
+Secret Access Key:
+vNpO78Gg1oSjF8fJnxYGw5sll5lBmqOn5wja4g/b -->
 <h1>New video</h1>
 
 <%= simple_form_for @video, url: new_video_path_for(current_user) do |f| %>

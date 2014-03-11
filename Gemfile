@@ -15,6 +15,9 @@ gem 'opentok', '~> 0.0.5'
 gem 'watu_table_builder', require: 'table_builder'
 gem 'jquery-rails'
 gem 'tinymce-rails'
+gem 'execjs'
+gem 'mysql2'
+gem 'therubyracer'
 
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
